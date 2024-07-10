@@ -1,0 +1,48 @@
+.academyInfo {
+  display: flex;
+  justify-content: space-around;
+  height: 80vh;
+  align-items: flex-start;
+  margin-top: 10rem;
+}
+
+.aboutTextBox {
+  flex: 0 0 40%;
+  animation: comingUp 2s linear;
+}
+
+.aboutTextBox h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.aboutTextBox p {
+  font-size: 1.6rem;
+  font-weight: 100;
+  text-align: justify;
+  line-height: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.aboutTextBox h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.aboutImageBox {
+  flex: 0 0 40%;
+  height: 100%;
+}
+
+.aboutImageBox img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 10px 10px 10rem #414a4c;
+}
+
+@media (max-width: 800px) {
+  .academyInfo {
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+  }
+}

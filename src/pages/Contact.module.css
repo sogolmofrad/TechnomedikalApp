@@ -1,0 +1,40 @@
+@keyframes comingUp {
+  0% {
+    transform: translateY(40rem);
+  }
+  50% {
+    transform: translateY(20rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.contact {
+  display: flex;
+  height: fit-content;
+  background-color: #2b3e66;
+  padding: 5rem 10rem;
+  justify-content: space-between;
+  box-shadow: 5px 5px 10px #1e2952;
+  animation: comingUp 2s linear;
+}
+
+.contactInfo {
+  display: flex;
+}
+.contactInfo span {
+  font-weight: 100;
+}
+.contactInfo span img {
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+
+@media (max-width: 800px) {
+  .contact {
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+  }
+}

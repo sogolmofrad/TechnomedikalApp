@@ -1,0 +1,131 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  padding: 3rem 5rem;
+}
+
+.btn,
+.btn:visited,
+.btn:link {
+  font-size: 1.4rem;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.btn-blue {
+  color: white;
+  background-color: #6495ed;
+}
+
+.btn-blue:hover {
+  background-color: white;
+  color: #6495ed;
+  transform: translateY(-10px);
+}
+
+.btn-red {
+  width: 50%;
+  text-decoration: none;
+  text-align: center;
+  color: orangered;
+  border: 2px orangered solid !important;
+}
+.btn-red:hover {
+  transform: translateY(10px);
+  color: white;
+  background-color: orangered;
+}
+
+.btn-red-2 {
+  text-decoration: none;
+  font-size: inherit;
+  color: #6495ed;
+  padding-left: 0 !important;
+}
+.textBox {
+  margin-top: 3rem;
+  flex: 0 0 40%;
+}
+.textBox h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.textBox p {
+  font-size: 1.4rem;
+  font-weight: 100;
+  text-align: justify;
+  line-height: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.futureCourceKoc {
+  background-color: white;
+  color: #1e2952;
+}
+
+.thankyouPage {
+  width: 50%;
+  line-height: 3rem;
+  font-size: 1.6rem;
+  text-align: justify;
+  margin: 10rem auto;
+  padding: 4rem;
+  box-shadow: 3px 3px 2rem #414a4c;
+}
+
+@media (max-width: 800px) {
+  .coursesCard {
+    width: 40rem !important;
+    height: 60rem !important;
+    margin-top: 0;
+    margin-bottom: 5rem;
+  }
+  .futureCourceKoc {
+    margin-top: 5rem !important;
+  }
+  .thankyouPage {
+    width: 100%;
+    line-height: 2rem;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 500px) {
+  .coursesCard {
+    width: 30rem !important;
+    height: 62rem !important;
+  }
+  .btn-red {
+    width: 90%;
+  }
+  .futureCourceKoc {
+    height: 50rem !important;
+  }
+}

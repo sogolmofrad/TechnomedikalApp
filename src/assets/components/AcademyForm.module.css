@@ -1,0 +1,53 @@
+.formContainer {
+  flex: 0 0 30%;
+  background-color: white;
+  padding: 3rem 5rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #1e2952;
+}
+
+.formContainer h1 {
+  font-size: 1.6rem;
+  color: #2b3e66;
+  text-transform: capitalize;
+}
+
+.formInputGroup {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+
+  color: #2b3e66;
+}
+
+.formInputGroup label {
+  font-size: 1.4rem;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+.formInputGroup input,
+.formInputGroup select {
+  padding: 1rem;
+  border-radius: 2px;
+  border-color: #2b3e66;
+  border-style: solid;
+}
+
+.formInputGroup input::placeholder,
+.formInputGroup textarea::placeholder {
+  color: #85858f;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.formInputGroup select {
+  width: 100%;
+
+  border-width: 2px;
+  margin-bottom: 1rem;
+}
+
+.formInputGroup input:focus,
+.formInputGroup select:focus {
+  outline-color: #4169e1;
+}

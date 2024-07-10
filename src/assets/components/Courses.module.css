@@ -1,0 +1,61 @@
+.coursesContainer {
+  margin-top: 5rem;
+  box-shadow: 5px 5px 10px #1e2952;
+  padding: 5rem;
+}
+.courses {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.courses h1 {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+  font-weight: 200;
+}
+
+.courses .information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.courseInfo {
+  flex: 0 0 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 65rem;
+}
+
+.courseInfo h2 {
+  font-size: 1.6rem;
+}
+.courseInfo p {
+  font-size: 1.4rem;
+  font-weight: 100;
+  text-align: justify;
+  line-height: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.aboutImageBox {
+  flex: 0 0 30%;
+}
+
+.aboutImageBox img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #1e2952;
+}
+
+@media (max-width: 800px) {
+  .courses {
+    flex-direction: column;
+  }
+  .courseInfo {
+    margin-top: 5rem;
+  }
+}

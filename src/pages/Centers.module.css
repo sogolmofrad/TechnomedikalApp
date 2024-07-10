@@ -1,0 +1,75 @@
+@keyframes comingUp {
+  0% {
+    transform: translateY(40rem);
+  }
+  50% {
+    transform: translateY(20rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.center {
+  animation: comingUp 2s linear;
+}
+.centerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+  margin-bottom: 3rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #1e2952;
+}
+
+.centerImageBoxes {
+  display: grid;
+  position: relative;
+  flex: 0 0 40%;
+  margin-top: 3rem;
+  grid-template-rows: repeat(2, 200px);
+  grid-template-columns: repeat(2, 300px);
+  grid-template-areas:
+    "image1 ."
+    ". image2";
+}
+.centerImageBoxes img,
+.centerImage3 {
+  max-width: 30rem;
+  border: 2px solid #1e2952;
+
+  box-shadow: 5px 5px 10px #1e2952;
+}
+
+.centerImage1 {
+  grid-area: image1;
+}
+
+.centerImage2 {
+  grid-area: image2;
+  transform: translateX(-5rem);
+}
+.centerImage3 {
+  transform: translateX(-5rem);
+}
+
+@media (max-width: 800px) {
+  .centerContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .centerImageBoxes {
+    display: flex;
+    justify-content: space-between;
+  }
+  .centerImageBoxes img,
+  .centerImage3 {
+    max-width: 15rem;
+    transform: translate(0, 0);
+  }
+}
+@media (max-width: 600px) {
+  .centerImageBoxes img,
+  .centerImage3 {
+    max-width: 14rem;
+  }
+}

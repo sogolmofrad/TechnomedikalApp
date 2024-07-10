@@ -1,0 +1,81 @@
+@keyframes comingUp {
+  0% {
+    transform: translateY(40rem);
+  }
+  50% {
+    transform: translateY(20rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  align-items: flex-start;
+  padding-top: 5rem;
+}
+
+.aboutTextBox {
+  flex: 0 0 40%;
+  animation: comingUp 2s linear;
+}
+
+.aboutTextBox h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.aboutTextBox p {
+  font-size: 1.6rem;
+  font-weight: 100;
+  text-align: justify;
+  line-height: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.aboutTextBox h3 {
+  font-size: 1.6rem;
+  padding-left: 3rem;
+}
+.aboutTextBox ul {
+  padding-left: 3rem;
+}
+.aboutTextBox ul li {
+  font-size: 1.4rem;
+  font-weight: 100;
+  text-align: justify;
+  padding-top: 1.5rem;
+}
+
+.aboutImageBox {
+  flex: 0 0 40%;
+  height: 100%;
+}
+
+.aboutImageBox img {
+  height: 100%;
+  box-shadow: 10px 10px 10rem #414a4c;
+}
+
+@media (max-width: 1000px) {
+  .about {
+    height: fit-content;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .aboutTextBox {
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .aboutImageBox {
+    width: 30rem;
+  }
+
+  .aboutImageBox img {
+    width: 100%;
+  }
+}
