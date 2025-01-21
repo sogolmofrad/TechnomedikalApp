@@ -1,16 +1,19 @@
 .header {
   height: 80vh;
-  background-image: url("images/doctor.gif");
+  background-image: url("images/header.png");
   background-position: center;
   background-size: cover;
   position: relative;
 }
 
-.headerText {
+/* .headerText {
+  position: absolute;
   padding-top: 8rem;
   padding-left: 8rem;
   color: #1e2952;
-}
+  bottom: 3rem;
+  right: 3rem;
+} */
 .headerText h3 {
   text-transform: uppercase;
   margin-bottom: 1rem;
@@ -24,8 +27,8 @@
 
 .headerBtn {
   position: absolute;
-  top: 20rem;
-  left: 8rem;
+  bottom: 5rem;
+  left: 3rem;
 }
 
 @media (max-width: 800px) {

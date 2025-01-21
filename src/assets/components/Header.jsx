@@ -4,12 +4,12 @@ function Header() {
   const navigate = useNavigate();
   return (
     <header className={styles.header}>
-      <div className={styles.headerText}>
+      {/* <div className={styles.headerText}>
         <h1>
           Radiating hope,
           <span> Healing lives</span>
         </h1>
-      </div>
+      </div> */}
       <button
         className={`btn btn-blue ${styles.headerBtn}`}
         onClick={() => navigate("contact")}
