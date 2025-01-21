@@ -15,22 +15,6 @@ function FutureCourses() {
       <h1>Future Courses</h1>
       <div className={styles.coursesContainer}>
         <CourseCard
-          imgSrc="images/oncology-2.jpg"
-          imgAlt="Radiation Therapy"
-          heading="Introduction to the Significance of İntensity Modulated Radiation Therapy (IMRT) in Modern Radiation Oncology
-          "
-          paragraph1="The pre-registration has started.
-          For more information about the course, please fill out the pre-registration form.
-          "
-          paragraph2="Deadline: September 2024 
-          (the exact date will be announced soon)"
-          width={width}
-          height={height}
-          className="futureCourceKoc"
-          btn2={true}
-          btn3={true}
-        />
-        <CourseCard
           imgSrc="images/Stereotactic.jpg"
           imgAlt="Stereotactic"
           heading="Stereotactic Body Radiation Therapy (SBRT)"

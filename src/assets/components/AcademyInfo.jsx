@@ -6,22 +6,24 @@ function AcademyInfo() {
       <div className={styles.aboutTextBox}>
         <h1>Technomed Academy</h1>
         <p>
-          Technomed Academy stands at the forefront of transformative education,
-          dedicated to elevating the level of treatment knowledge for the entire
-          medical healthcare group. Our mission goes beyond conventional
-          boundaries, aiming to shape the future of healthcare on a global
-          scale.
+          Technomed Academy is a leader in transformative medical education,
+          dedicated to advancing treatment knowledge and expertise across the
+          healthcare sector. In collaboration with the Iranian Society of
+          Clinical Oncology (ISCO), we proudly organize comprehensive training
+          programs designed specifically for physicians in the field of
+          radiation oncology. These programs focus on advanced cancer treatment
+          techniques, blending on-site practical training with online
+          theoretical sessions to deliver a holistic learning experience.
           <br />
-          We are dedicated to equipping healthcare professionals with the
-          necessary tools for success, emphasizing continuous learning and
-          innovation.
+          At Technomed Academy, our mission is to empower healthcare
+          professionals with cutting-edge skills and knowledge, fostering
+          innovation and excellence in patient care. We are committed to shaping
+          the future of healthcare by emphasizing continuous learning and
+          enabling global collaboration among medical experts.
           <br />
-          Our vision is to promote a future where medical experts seamlessly
-          collaborate, possessing advanced skills and knowledge.
-          <br />
-          As Technomed group, we are proud to announce that the IMRT training
-          program is designed to be held in collaboration with KOÇ University
-          Hospital Center with KOÇ Hospital certification.
+          Our vision is a world where healthcare professionals work seamlessly
+          together, equipped with advanced expertise to drive better treatment
+          outcomes and improve the quality of care worldwide.
         </p>
       </div>
       <AcademyForm />

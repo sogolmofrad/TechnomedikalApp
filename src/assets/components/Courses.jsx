@@ -18,7 +18,7 @@ function Courses() {
             paragraph1={paragraph1}
             paragraph2={`Deadline: 27-31 may 2024 \n  (registration closed)`}
             width="50%"
-            height="58rem"
+            height="55rem"
             btn1={true}
           />
           <a href="#futureCourses" className="btn btn-red">

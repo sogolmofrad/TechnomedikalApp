@@ -24,7 +24,6 @@ function CourseCard({
       <div className={styles.cardText}>
         <h3>{heading}</h3>
         <p>{paragraph1}</p>
-        <p style={{ color: "orangered", fontWeight: "300" }}>{paragraph2}</p>
         <p>{paragraph3}</p>
         {btn1 && (
           <p>
