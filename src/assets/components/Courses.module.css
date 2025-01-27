@@ -1,12 +1,15 @@
 .coursesContainer {
   margin-top: 5rem;
   box-shadow: 5px 5px 10px #1e2952;
-  padding: 5rem;
+  padding-top: 5rem;
+  padding-bottom:5rem;
+  padding-left:10rem;
+  padding-right:10rem;
 }
 .courses {
   margin-top: 5rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: stretch;
 }
 
@@ -19,7 +22,7 @@
 .courses .information {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
 }
 

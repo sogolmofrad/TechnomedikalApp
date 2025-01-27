@@ -26,7 +26,6 @@ function AcademyInfo() {
           outcomes and improve the quality of care worldwide.
         </p>
       </div>
-      <AcademyForm />
     </section>
   );
 }

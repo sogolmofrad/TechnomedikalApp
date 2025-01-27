@@ -1,6 +1,6 @@
 .header {
   height: 85vh;
-  background-image: url("images/header-academy.gif");
+  background-image: url("/images/header-academy.gif");
   background-position: center;
   background-size: cover;
   position: relative;
