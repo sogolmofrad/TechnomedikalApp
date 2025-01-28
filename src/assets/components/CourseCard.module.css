@@ -42,7 +42,7 @@
 
 @media (max-width: 800px) {
   .card {
-    width: 25rem !important;
+    width: 35rem !important;
     height: 45rem !important;
     margin-top: 10rem;
   }

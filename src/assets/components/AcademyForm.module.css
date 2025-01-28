@@ -51,3 +51,10 @@
 .formInputGroup select:focus {
   outline-color: #4169e1;
 }
+
+
+@media (max-width:800px) {
+  .formContainer{
+    flex-basis:80%;
+  }
+}

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   height: 80vh;
-  align-items: flex-start;
+  align-items: center;
   margin-top: 10rem;
 }
 
@@ -18,7 +18,7 @@
 
 .aboutTextBox p {
   font-size: 1.6rem;
-  font-weight: 100;
+  font-weight: 300;
   text-align: justify;
   line-height: 2.5rem;
   margin-bottom: 1.5rem;
@@ -30,12 +30,11 @@
 
 .aboutImageBox {
   flex: 0 0 40%;
-  height: 100%;
 }
 
 .aboutImageBox img {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   box-shadow: 10px 10px 10rem #414a4c;
 }
 
@@ -44,5 +43,7 @@
     flex-direction: column;
     height: fit-content;
     align-items: center;
+    gap:5rem;
   }
 }
+

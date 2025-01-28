@@ -55,10 +55,23 @@
 }
 
 @media (max-width: 800px) {
+  .coursesContainer{
+    padding-left:2rem;
+    padding-right:2rem;
+  }
   .courses {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:8rem;
   }
   .courseInfo {
     margin-top: 5rem;
+  }
+  .courses .information{
+    width: 80%;
+    align-items: center;
+    border-bottom:black 2px dotted;
+    padding-bottom: 5rem;
   }
 }

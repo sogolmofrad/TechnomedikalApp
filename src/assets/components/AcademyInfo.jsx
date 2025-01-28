@@ -26,6 +26,9 @@ function AcademyInfo() {
           outcomes and improve the quality of care worldwide.
         </p>
       </div>
+      <figure className={styles.aboutImageBox}>
+        <img src="/images/technoAcademy1.gif" alt="technomedikalImage" />
+      </figure>
     </section>
   );
 }
