@@ -40,14 +40,29 @@ function Centers() {
         <div className={styles.centerContainer}>
           <div className="textBox">
             <h1>Antalya City Hospital</h1>
-            <p></p>
+            <p>
+              We are proud to announce the launch of our first city hospital
+              project: Antalya City Hospital in Antalya. This state-of-the-art
+              facility, with a total capacity of 1,500 beds, has officially
+              commenced patient treatment in its Radiation Oncology Department,
+              equipped with premium segment LINAC systems and cutting-edge
+              technologies. The clinical team is dedicated to implementing
+              innovative radiation therapy techniques, positioning the
+              department to transform cancer care in the region.
+            </p>
           </div>
-
-          <img
-            className={styles.centerImage3}
-            src="images/antalya.jpg"
-            alt="Antalya"
-          />
+          <div className={styles.centerImageBoxes}>
+            <img
+              className={styles.centerImage1}
+              src="images/antalia-1.gif"
+              alt="medicana"
+            />
+            <img
+              className={styles.centerImage2}
+              src="images/antalia-2.gif"
+              alt="medicana"
+            />
+          </div>
         </div>
       </section>
     </div>

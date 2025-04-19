@@ -1,0 +1,35 @@
+.academySection{
+    margin-top: 10rem;
+}
+.academyInfo{
+display: flex;
+width: 100%;
+align-items: center;
+  padding: 5rem;
+  margin-bottom: 3rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #1e2952;
+  height: fit-content;
+  justify-content: space-between;
+}
+
+.academyImage{
+    max-width: 40rem;
+}
+
+
+.academyImage img{
+    max-width: 30rem;
+    border: 2px solid #1e2952;
+    box-shadow: 5px 5px 10px #1e2952;
+}
+
+@media (max-width:600px) {
+    .academyInfo{
+        flex-direction: column;
+        gap:5rem;
+        
+    }
+    .academyImage{max-width: 30rem;}
+    .academyImage img{max-width: 20rem;}
+}

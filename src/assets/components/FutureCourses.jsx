@@ -3,9 +3,9 @@ import styles from "./FutureCourses.module.css";
 const width = "25rem";
 const height = "52rem";
 const paragraph_1 =
-  "This course covers various clinical practice parameters, including sarcomas, pediatrics, and the importance of radiotherapy in cancer patient management. Also it explores topics such as patient immobilization, treatment planning, quality assurance, and the clinical applications of SBRT.";
+  "This course aims to enhance the expertise of radiation oncology professionals ni SRS and SBRT techniques. Through pre-recorded lectures and hands-on sessions, participants will gain practical skills in treatment planning, motion management, and advanced dose delivery for various cancer types.";
 const paragraph_2 =
-  " The aim is to delve into real-world case scenarios during Molecular Tumor Board sessions, unravel the intricacies of Comprehensive Genomic Profiling, and explore the nuances of genomic alterations";
+  " Experience the intersection of expertise and dedication. Our program showcased Medicana Health Group's patient-centered care and precision medicine approach, proving that quality healthcare knows no boundaries.";
 
 const paragraph_3 =
   "The Basics of Laparoscopy course aims to provide a foundational understanding of essential laparoscopic techniques and Robotic surgery.";
@@ -21,6 +21,7 @@ function FutureCourses() {
           paragraph1={paragraph_1}
           width={width}
           height={height}
+          btn2={true}
         />
         <CourseCard
           imgSrc="images/PrecisionOncology.jpg"
@@ -29,6 +30,7 @@ function FutureCourses() {
           paragraph1={paragraph_2}
           width={width}
           height={height}
+          btn3={true}
         />
         <CourseCard
           imgSrc="images/laparascopyRoboticSurgery.jpg"

@@ -2,9 +2,8 @@ import AcademyForm from "./AcademyForm";
 import CourseCard from "./CourseCard";
 import styles from "./Courses.module.css";
 const paragraph1 =
-  "The IMRT Preceptorship is a structured training program meticulously crafted to equip clinical oncologists with an in-depth understanding of Intensity-Modulated Radiation Therapy (IMRT). This comprehensive course aims to elevate participants' knowledge and skills in the planning and delivery of IMRT treatments for cancer patients. Through a combination of didactic lectures, hands-on practical sessions, and case discussions, participants will gain expertise in IMRT techniques, treatment planning software, quality assurance, and patient safety.";
-const cardHeading =
-  "Intensity Modulated Radiation Therapy (IMRT), Implementation and Practice of Image-Guided Stereotactic Radiotherapy, Preceptorship Programs at Precision Oncology Clinic";
+  "Explore the best practices and new trends in Intensity-Modulated Radiation Therapy (IMRT). This on-site course is tailored for both beginner and experienced radiation therapists, along with medical physicists. Its main goal is to help participants meet current practice standards and stay updated with the latest advancements. Combining pre-recorded theoretical content and practical sessions, the course comprehensively covers treatment planning, image guidance, and delivery.";
+const cardHeading = "Intensity Modulated Radiation Therapy (IMRT)";
 function Courses() {
   return (
     <section className={styles.coursesContainer}>
@@ -19,7 +18,7 @@ function Courses() {
             paragraph1={paragraph1}
             paragraph2={`Deadline: 27-31 may 2024 \n  (registration closed)`}
             width="50%"
-            height="58rem"
+            height="50rem"
             btn1={true}
           />
           <a href="#futureCourses" className="btn btn-red">

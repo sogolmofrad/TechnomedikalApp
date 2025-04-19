@@ -54,14 +54,22 @@ function AcademyForm() {
         <div className={styles.formInputGroup}>
           <label>Field of Expertise</label>
           <select placeholder="please select your expertise" name="field">
-            <option>⁠Doctor</option>
-            <option>Oncologist</option>
+            <option>Radiation Oncologist</option>
             <option>Medical Physicist</option>
-            <option>Radiation Technologist</option>
-            <option>Dosimetrist</option>
-            <option>Nurse</option>
-            <option>Researcher</option>
-            <option>other</option>
+            <option>Technicians</option>
+            <option> Dosimetrist</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div className={styles.formInputGroup}>
+          <label>Course Subject</label>
+          <select placeholder="Course subject" name="courseSubject">
+            <option>Intensity Modulated Radiation Therapy (IMRT)</option>
+            <option>
+              Implementation and Practice of Image-Guided Stereotactic
+              Radiotherapy
+            </option>
+            <option>Preceptorship Programs at Precision Oncology Clinic</option>
           </select>
         </div>
         <input

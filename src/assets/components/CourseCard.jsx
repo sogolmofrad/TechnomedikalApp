@@ -39,7 +39,7 @@ function CourseCard({
         {btn2 && (
           <p style={{ marginBottom: "2rem" }}>
             <a
-              href="Techno2.pdf"
+              href="Technomed2.pdf"
               download="brochure"
               className={`btn btn-blue ${styles.headerBtn}`}
             >
@@ -50,10 +50,10 @@ function CourseCard({
         {btn3 && (
           <p>
             <a
-              href="#formRegistration"
+              href="Technomed3.pdf"
               className={`btn btn-blue ${styles.headerBtn}`}
             >
-              Pre register
+              Information
             </a>
           </p>
         )}

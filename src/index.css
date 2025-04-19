@@ -120,7 +120,7 @@ body {
 @media (max-width: 500px) {
   .coursesCard {
     width: 30rem !important;
-    height: 62rem !important;
+    height: 50rem !important;
   }
   .btn-red {
     width: 90%;

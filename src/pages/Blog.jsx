@@ -98,6 +98,104 @@ function Blog() {
             />
           </div>
         </div>
+        <div className={styles.blogContainer}>
+          <div className="textBox">
+            <h1>
+              Technomed Academy’s First IMRT Training Program: A Step Towards
+              Advancing Radiation Oncology
+            </h1>
+            <p>
+              We are thrilled to announce that Technomed Academy successfully
+              conducted its On-Site IMRT (Intensity-Modulated Radiation Therapy)
+              training program at Koç University Hospital in Istanbul, Turkey,
+              an institution affiliated with MD Anderson Cancer Center, from May
+              27-30, 2024. Organized in collaboration with the Iranian Clinical
+              Oncology Association and Koç University Hospital team members, the
+              program was designed to enhance physicians' knowledge and skills
+              in implementing innovative technologies in radiation oncology.
+              <br />
+              Our training courses focus on ensuring that advanced radiation
+              oncology techniques, such as IMRT, SRS/SBRT, and more, are widely
+              understood and effectively applied across the globe, particularly
+              in the MENA region, to foster better patient outcomes.
+              <br />
+              Stay tuned for updates on our upcoming training programs as we
+              continue to advance education and innovation in radiation
+              oncology.
+            </p>
+          </div>
+          <div className={styles.blogImageBoxes2}>
+            <img
+              className={styles.blogImage1}
+              src="/images/imrt-1.gif"
+              alt="doctor"
+            />
+            <img
+              className={styles.blogImage2}
+              src="/images/imrt-2.gif"
+              alt="doctor"
+            />
+            <img
+              className={styles.blogImage3}
+              src="/images/imrt-3.gif"
+              alt="doctor"
+            />
+          </div>
+        </div>
+        <div className={styles.blogContainer}>
+          <div className="textBox">
+            <h1>
+              Antalya City Hospital Radiation Oncology Clinic Officially
+              Launched
+            </h1>
+            <p>
+              We are delighted to announce the grand opening of the Radiation
+              Oncology Clinic at Antalya City Hospital, which took place on
+              October 18, 2024, with a remarkable launch event held at the
+              hospital.
+              <br />
+              The opening ceremony was attended by Prof. Dr. Behzat Özkan,
+              Provincial Health Director; Prof. Dr. Mehmet Ali Gülçelik, Vice
+              Rector of the University of Health Sciences and Dean of Gülhane
+              Medical Faculty; Assoc. Prof. Dr. Nedim Ongun, Chief Physician of
+              Antalya City Hospital; Assoc. Prof. Dr. Eda Küçüktülü,
+              Administrative Head of the Radiation Oncology Clinic; members of
+              the Board of Directors of the Turkish Radiation Oncology
+              Association, as well as hospital administrators and staff.
+              <br />
+              The event featured a symposium highlighting the advanced
+              technologies and innovative treatment approaches introduced by the
+              Radiation Oncology Clinic, while also commemorating Breast Cancer
+              Awareness Month.
+              <br />
+              Equipped with cutting-edge systems, the clinic is dedicated to
+              delivering state-of-the-art cancer care, setting new standards in
+              radiation therapy.
+              <br />
+              We are proud to contribute to the advancement of healthcare in
+              Antalya and the surrounding areas, ensuring patients receive the
+              highest quality of treatment. Stay tuned for more updates on our
+              groundbreaking initiatives.
+            </p>
+          </div>
+          <div className={styles.blogImageBoxes2}>
+            <img
+              className={styles.blogImage1}
+              src="/images/blog-4-1.gif"
+              alt="Hostpital"
+            />
+            <img
+              className={styles.blogImage2}
+              src="/images/blog-4-2.gif"
+              alt="Hospital"
+            />
+            <img
+              className={styles.blogImage3}
+              src="/images/blog-4-3.gif"
+              alt="Hospital"
+            />
+          </div>
+        </div>
       </section>
     </div>
   );
